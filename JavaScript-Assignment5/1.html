@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js" defer ></script>
+</head>
+<body>
+    <section>
+        <h1>Cashier Checkout</h1>
+        <p> Scan Product Barcode </p>
+        <input type="Add Barcode Number" id="barcodeNum">
+        <br>
+        <p> Quantity:</p>
+        <input id="quantityNum">
+        <br>
+        <button id="AddToCart">Add to Cart
+        </button>
+        <p id="wrongNum"></p>
+    </section>
+
+    <section>
+        <h2> Cart </h2>
+        <div class="container">
+            <div class="words">
+                <span>Item</span>
+                <span>Price</span>
+                <span>Quantity</span>
+            </div>
+        </div>
+
+        <div id="list" class="list" >
+            <!-- <li id="list">
+
+            </li> -->
+        </div>
+        <p>Total: </p><br>
+        <button> Checkout </button><br>
+        <p id="subtotal"> Your grand total including tax is 9.25% </p>
+    </section>
+</body>
+</html>
