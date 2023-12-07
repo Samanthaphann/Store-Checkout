@@ -38,7 +38,7 @@ input {
     justify-content: space-around;
     text-decoration: underline;
     font-weight: bold;
-    gap: 50px;
+    /* gap: 10px; */
     /* margin: 0 12rem; */
 }
 
@@ -50,6 +50,13 @@ input {
 .itemsContainer{
     display: flex;
     justify-content: space-around;
-    border: 2px black solid;
-    flex: 2;
+    padding: 0 0 .5rem 0;
+    border: 1px black solid;
+    border-radius:2%;
+    margin: 1rem;
+}
+
+.itemsContainer p{
+    flex: 1;
+    text-align: center;
 }
